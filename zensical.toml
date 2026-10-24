@@ -19,6 +19,7 @@ nav = [
         { "Zaufanie ma termin ważności" = "zasady/zaufanie-ma-termin-waznosci.md" },
         { "Zaufanie nie jest dziedziczone" = "zasady/zaufanie-nie-jest-dziedziczone.md" },
     ]},
+    { "FAQ" = "faq.md" },
     { "O projekcie" = "o-projekcie.md" },
 ]
 
