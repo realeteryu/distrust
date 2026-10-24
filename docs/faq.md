@@ -15,7 +15,7 @@ To pytania, które najczęściej pojawiają się po lekturze manifestu. Jeśli c
 
 **Nie.** Distrust to filozofia i sposób myślenia, a nie lista produktów. Nie promuję konkretnych narzędzi. Wychodzę z założenia, że żadne narzędzie nie zastąpi myślenia.
 
-### Od czego zacząć? To brzmi jak ogromny projekt.
+### Od czego mam zacząć? To brzmi jak ogromny projekt.
 
 **Od małych kroków.** Nie musisz zmieniać całego cyfrowego życia w jeden dzień. Zacznij od jednej decyzji: sprawdź uprawnienia aplikacji, z której właśnie korzystasz, albo przeczytaj, jakie dane zbiera strona, na której spędzasz najwięcej czasu. Świadomość to pierwszy krok.
 
