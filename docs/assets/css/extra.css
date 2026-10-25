@@ -121,26 +121,18 @@
 /* styl dla przycisku FAQ */
 .mdx-hero__faq-wrapper {
     text-align: center;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
 }
 
-.mdx-hero__btn-subtle {
-    display: inline-block;
-    padding: 0.35rem 1rem;
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
+.mdx-hero .md-button--ghost {
     background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 999px;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    line-height: 1;
 }
 
-.mdx-hero__btn-subtle:hover {
-    color: white;
+.mdx-hero .md-button--ghost:hover {
     background-color: rgba(255, 255, 255, 0.1);
+    color: white;
     border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -233,4 +225,4 @@
 .md-header__button.md-logo img {
     height: 2rem !important;
     width: auto !important;
-        }
+}
