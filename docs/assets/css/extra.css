@@ -118,6 +118,32 @@
     color: white;
 }
 
+/* styl dla przycisku FAQ */
+.mdx-hero__faq-wrapper {
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.mdx-hero__btn-subtle {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.mdx-hero__btn-subtle:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
 .mdx-hero__wave {
     position: absolute;
     bottom: 0;
@@ -131,7 +157,7 @@
 :root {
     --md-text-font: "Roboto", -apple-system, sans-serif;
     --md-code-font: "Roboto Mono", SFMono-Regular, Consolas, monospace;
-    }
+}
 
 /* poprawki typografii treści */
 .md-typeset p {
@@ -178,7 +204,7 @@
 .md-typeset ::selection {
     background-color: #5c6bc0;
     color: #ffffff;
-    }
+}
 
 /* dopasowanie logo i napisu w menu mobilnym */
 .md-nav__title[for="__drawer"] {
@@ -207,4 +233,4 @@
 .md-header__button.md-logo img {
     height: 2rem !important;
     width: auto !important;
-}
+        }
