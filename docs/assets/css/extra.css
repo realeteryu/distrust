@@ -120,17 +120,27 @@
 
 /* styl dla przycisku FAQ */
 .mdx-hero__faq-wrapper {
+    display: block;
+    margin-top: 1.5rem;
     text-align: center;
-    margin-top: 1rem;
 }
 
-.mdx-hero .md-button--ghost {
+.mdx-hero__btn-faq {
+    display: inline-block;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    border-radius: 999px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
     background-color: transparent;
     color: rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.2s ease;
 }
 
-.mdx-hero .md-button--ghost:hover {
+.mdx-hero__btn-faq:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
     border-color: rgba(255, 255, 255, 0.5);
@@ -225,4 +235,4 @@
 .md-header__button.md-logo img {
     height: 2rem !important;
     width: auto !important;
-}
+                                }
