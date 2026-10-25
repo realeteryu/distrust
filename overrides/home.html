@@ -9,6 +9,27 @@
     .md-typeset h1:first-of-type {
       display: none !important;
     }
+
+    /* Nowy, spójny styl dla wszystkich przycisków w hero */
+    .hero-btn-custom {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: white !important;
+      background-color: transparent !important;
+      border: 1px solid #5c6bc0 !important;
+      border-radius: 999px;
+      text-decoration: none !important;
+      transition: all 0.2s ease;
+      line-height: 1;
+    }
+
+    .hero-btn-custom:hover {
+      background-color: rgba(92, 107, 192, 0.2) !important;
+      border-color: #818cf8 !important;
+      color: white !important;
+    }
   </style>
 {% endblock %}
 
@@ -19,15 +40,14 @@
       <h1>Nie ufaj domyślnie.</h1>
       <p>Ale najpierw wiedz, czemu.</p>
       
-      <!-- Oryginalne przyciski (zostają nietknięte) -->
-      <div class="mdx-hero__buttons">
-        <a href="zasady/domyslne-ustawienia/" class="md-button md-button--primary">Zacznij od pierwszej zasady</a>
-        <a href="o-projekcie/" class="md-button">O projekcie</a>
+      <!-- Wszystkie trzy przyciski mają teraz ten sam styl -->
+      <div style="display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+        <a href="zasady/domyslne-ustawienia/" class="hero-btn-custom">Zacznij od pierwszej zasady</a>
+        <a href="o-projekcie/" class="hero-btn-custom">O projekcie</a>
       </div>
 
-      <!-- Nowy przycisk FAQ (z bezpiecznymi stylami inline) -->
-      <div style="margin-top: 1.2rem; text-align: center;">
-        <a href="faq/" style="display: inline-block; padding: 0.45rem 1rem; font-size: 0.75rem; font-weight: 700; color: white; background-color: transparent; border: 1px solid #5c6bc0; border-radius: 999px; text-decoration: none; transition: all 0.2s ease;">Masz pytania? Sprawdź FAQ</a>
+      <div style="text-align: center;">
+        <a href="faq/" class="hero-btn-custom">Masz pytania? Sprawdź FAQ</a>
       </div>
 
     </div>
