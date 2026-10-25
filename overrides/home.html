@@ -9,6 +9,42 @@
     .md-typeset h1:first-of-type {
       display: none !important;
     }
+    
+    /* Poprawki dla przycisków */
+    .mdx-hero__buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+    
+    /* Nadanie właściwego koloru głównemu przyciskowi (np. różowemu z motywu lub białemu) */
+    .mdx-hero__buttons .md-button--primary {
+      background-color: var(--md-accent-fg-color, #e91e63); 
+      color: white;
+      border: none;
+    }
+    
+    .mdx-hero__buttons .md-button--primary:hover {
+      background-color: var(--md-accent-fg-color, #e91e63);
+      opacity: 0.8;
+    }
+
+    /* Styl dla linku FAQ */
+    .mdx-hero__faq-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #a5b4fc;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.3s;
+    }
+    
+    .mdx-hero__faq-link:hover {
+      color: white;
+      text-decoration: underline;
+    }
   </style>
 {% endblock %}
 
@@ -19,16 +55,13 @@
       <h1>Nie ufaj domyślnie.</h1>
       <p>Ale najpierw wiedz, czemu.</p>
       
-      <!-- Główne przyciski -->
       <div class="mdx-hero__buttons">
         <a href="zasady/domyslne-ustawienia/" class="md-button md-button--primary">Zacznij od pierwszej zasady</a>
         <a href="o-projekcie/" class="md-button">O projekcie</a>
       </div>
       
-      <!-- Nowy przycisk FAQ wyśrodkowany poniżej -->
-      <div style="margin-top: 1.5rem; text-align: center;">
-        <a href="faq/" class="md-button" style="border: 1px solid var(--md-primary-fg-color); background-color: transparent;">Masz pytania? Sprawdź FAQ</a>
-      </div>
+      <!-- FAQ jako dyskretny link tekstowy -->
+      <a href="faq/" class="mdx-hero__faq-link">Masz pytania? Sprawdź FAQ &rarr;</a>
 
     </div>
     <svg class="mdx-hero__wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
