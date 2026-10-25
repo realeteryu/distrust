@@ -108,33 +108,14 @@
     color: white;
 }
 
-.mdx-hero .md-button:not(.md-button--primary):not(.md-button--faq) {
+.mdx-hero .md-button:not(.md-button--primary) {
     background-color: rgba(255, 255, 255, 0.15);
     color: white;
 }
 
-.mdx-hero .md-button:not(.md-button--primary):not(.md-button--faq):hover {
+.mdx-hero .md-button:not(.md-button--primary):hover {
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
-}
-
-/* styl dla przycisku FAQ */
-.mdx-hero__faq-wrapper {
-    display: block;
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.mdx-hero .md-button--faq {
-    background-color: transparent !important;
-    color: rgba(255, 255, 255, 0.7) !important;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
-}
-
-.mdx-hero .md-button--faq:hover {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    color: white !important;
-    border-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .mdx-hero__wave {
@@ -226,4 +207,4 @@
 .md-header__button.md-logo img {
     height: 2rem !important;
     width: auto !important;
-    }
+        }
