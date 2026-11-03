@@ -77,7 +77,7 @@ generator = false
 # linki społecznościowe w stopce
 [[project.extra.social]]
 icon = "fontawesome/brands/mastodon"
-link = "https://infosec.exchange/@eteryu"
+link = "https://101010.pl/@Eteryu"
 name = "Mastodon"
 
 [[project.extra.social]]
